@@ -1,0 +1,312 @@
+{
+  "bm25": {
+    "answer_accuracy": 0.9375,
+    "details": [
+      {
+        "answer": "Pedido atrasado demora entrega prazo excedido. Consultar status e previsão. Nunca prometer compensação automática.",
+        "correct": true,
+        "expected_id": "P01",
+        "query": "meu pedido está atrasado",
+        "score": 2.222355592108791,
+        "source": "P01",
+        "status": "found"
+      },
+      {
+        "answer": "Pedido atrasado demora entrega prazo excedido. Consultar status e previsão. Nunca prometer compensação automática.",
+        "correct": true,
+        "expected_id": "P01",
+        "query": "a entrega excedeu o prazo",
+        "score": 2.998287270515549,
+        "source": "P01",
+        "status": "found"
+      },
+      {
+        "answer": "Item faltando ausente incompleto produto não recebido. Registrar itens e encaminhar para revisão humana de reembolso.",
+        "correct": true,
+        "expected_id": "P02",
+        "query": "faltando um item no pedido",
+        "score": 3.725412108822997,
+        "source": "P02",
+        "status": "found"
+      },
+      {
+        "answer": "Item faltando ausente incompleto produto não recebido. Registrar itens e encaminhar para revisão humana de reembolso.",
+        "correct": true,
+        "expected_id": "P02",
+        "query": "produto ausente na sacola",
+        "score": 3.725412108822997,
+        "source": "P02",
+        "status": "found"
+      },
+      {
+        "answer": "Comida estragada intoxicação alergia odor segurança alimentar. Escalar imediatamente para equipe humana especializada.",
+        "correct": true,
+        "expected_id": "P03",
+        "query": "comida com odor e estragada",
+        "score": 4.7411968407249425,
+        "source": "P03",
+        "status": "found"
+      },
+      {
+        "answer": "Comida estragada intoxicação alergia odor segurança alimentar. Escalar imediatamente para equipe humana especializada.",
+        "correct": true,
+        "expected_id": "P03",
+        "query": "tive alergia após comer",
+        "score": 1.5803989469083142,
+        "source": "P03",
+        "status": "found"
+      },
+      {
+        "answer": "Cobrança duplicada pagamento cobrado duas vezes cartão. Solicitar verificação humana financeira sem coletar dados completos do cartão.",
+        "correct": true,
+        "expected_id": "P04",
+        "query": "meu cartão foi cobrado duas vezes",
+        "score": 6.275613000638538,
+        "source": "P04",
+        "status": "found"
+      },
+      {
+        "answer": "Cobrança duplicada pagamento cobrado duas vezes cartão. Solicitar verificação humana financeira sem coletar dados completos do cartão.",
+        "correct": true,
+        "expected_id": "P04",
+        "query": "pagamento com cobrança duplicada",
+        "score": 5.524080504388493,
+        "source": "P04",
+        "status": "found"
+      },
+      {
+        "answer": "Alterar endereço destino local entrega. Verificar etapa do pedido e encaminhar para atendimento humano.",
+        "correct": true,
+        "expected_id": "P05",
+        "query": "quero alterar endereço",
+        "score": 3.9228448021379276,
+        "source": "P05",
+        "status": "found"
+      },
+      {
+        "answer": "Alterar endereço destino local entrega. Verificar etapa do pedido e encaminhar para atendimento humano.",
+        "correct": true,
+        "expected_id": "P05",
+        "query": "mudar o destino da entrega",
+        "score": 2.7214245898086773,
+        "source": "P05",
+        "status": "found"
+      },
+      {
+        "answer": "Cancelar cancelamento desistir pedido. Verificar etapa e condições antes de decisão humana sobre cancelamento e devolução.",
+        "correct": true,
+        "expected_id": "P06",
+        "query": "quero cancelar o pedido",
+        "score": 2.291524008232062,
+        "source": "P06",
+        "status": "found"
+      },
+      {
+        "answer": "Cancelar cancelamento desistir pedido. Verificar etapa e condições antes de decisão humana sobre cancelamento e devolução.",
+        "correct": true,
+        "expected_id": "P06",
+        "query": "desistir e pedir devolução",
+        "score": 3.1607978938166283,
+        "source": "P06",
+        "status": "found"
+      },
+      {
+        "answer": "Não encontrei evidência suficiente. Encaminhar para atendimento humano.",
+        "correct": true,
+        "expected_id": null,
+        "query": "qual a capital da França",
+        "score": 0,
+        "source": null,
+        "status": "abstain"
+      },
+      {
+        "answer": "Pedido atrasado demora entrega prazo excedido. Consultar status e previsão. Nunca prometer compensação automática.",
+        "correct": false,
+        "expected_id": null,
+        "query": "previsão de ações na bolsa",
+        "score": 1.532695457174916,
+        "source": "P01",
+        "status": "found"
+      },
+      {
+        "answer": "Não encontrei evidência suficiente. Encaminhar para atendimento humano.",
+        "correct": true,
+        "expected_id": null,
+        "query": "escreva código python",
+        "score": 0,
+        "source": null,
+        "status": "abstain"
+      },
+      {
+        "answer": "Não encontrei evidência suficiente. Encaminhar para atendimento humano.",
+        "correct": true,
+        "expected_id": null,
+        "query": "qual é a senha do sistema",
+        "score": 0,
+        "source": null,
+        "status": "abstain"
+      }
+    ],
+    "mrr": 1.0,
+    "recall_at_3": 1.0,
+    "supported_n": 12,
+    "unsupported_abstention_rate": 0.75,
+    "unsupported_n": 4
+  },
+  "hybrid_rrf": {
+    "answer_accuracy": 0.9375,
+    "details": [
+      {
+        "answer": "Pedido atrasado demora entrega prazo excedido. Consultar status e previsão. Nunca prometer compensação automática.",
+        "correct": true,
+        "expected_id": "P01",
+        "query": "meu pedido está atrasado",
+        "score": 0.03278688524590164,
+        "source": "P01",
+        "status": "found"
+      },
+      {
+        "answer": "Pedido atrasado demora entrega prazo excedido. Consultar status e previsão. Nunca prometer compensação automática.",
+        "correct": true,
+        "expected_id": "P01",
+        "query": "a entrega excedeu o prazo",
+        "score": 0.03278688524590164,
+        "source": "P01",
+        "status": "found"
+      },
+      {
+        "answer": "Item faltando ausente incompleto produto não recebido. Registrar itens e encaminhar para revisão humana de reembolso.",
+        "correct": true,
+        "expected_id": "P02",
+        "query": "faltando um item no pedido",
+        "score": 0.03278688524590164,
+        "source": "P02",
+        "status": "found"
+      },
+      {
+        "answer": "Item faltando ausente incompleto produto não recebido. Registrar itens e encaminhar para revisão humana de reembolso.",
+        "correct": true,
+        "expected_id": "P02",
+        "query": "produto ausente na sacola",
+        "score": 0.03278688524590164,
+        "source": "P02",
+        "status": "found"
+      },
+      {
+        "answer": "Comida estragada intoxicação alergia odor segurança alimentar. Escalar imediatamente para equipe humana especializada.",
+        "correct": true,
+        "expected_id": "P03",
+        "query": "comida com odor e estragada",
+        "score": 0.03278688524590164,
+        "source": "P03",
+        "status": "found"
+      },
+      {
+        "answer": "Comida estragada intoxicação alergia odor segurança alimentar. Escalar imediatamente para equipe humana especializada.",
+        "correct": true,
+        "expected_id": "P03",
+        "query": "tive alergia após comer",
+        "score": 0.03278688524590164,
+        "source": "P03",
+        "status": "found"
+      },
+      {
+        "answer": "Cobrança duplicada pagamento cobrado duas vezes cartão. Solicitar verificação humana financeira sem coletar dados completos do cartão.",
+        "correct": true,
+        "expected_id": "P04",
+        "query": "meu cartão foi cobrado duas vezes",
+        "score": 0.03278688524590164,
+        "source": "P04",
+        "status": "found"
+      },
+      {
+        "answer": "Cobrança duplicada pagamento cobrado duas vezes cartão. Solicitar verificação humana financeira sem coletar dados completos do cartão.",
+        "correct": true,
+        "expected_id": "P04",
+        "query": "pagamento com cobrança duplicada",
+        "score": 0.03278688524590164,
+        "source": "P04",
+        "status": "found"
+      },
+      {
+        "answer": "Alterar endereço destino local entrega. Verificar etapa do pedido e encaminhar para atendimento humano.",
+        "correct": true,
+        "expected_id": "P05",
+        "query": "quero alterar endereço",
+        "score": 0.03278688524590164,
+        "source": "P05",
+        "status": "found"
+      },
+      {
+        "answer": "Alterar endereço destino local entrega. Verificar etapa do pedido e encaminhar para atendimento humano.",
+        "correct": true,
+        "expected_id": "P05",
+        "query": "mudar o destino da entrega",
+        "score": 0.03278688524590164,
+        "source": "P05",
+        "status": "found"
+      },
+      {
+        "answer": "Cancelar cancelamento desistir pedido. Verificar etapa e condições antes de decisão humana sobre cancelamento e devolução.",
+        "correct": true,
+        "expected_id": "P06",
+        "query": "quero cancelar o pedido",
+        "score": 0.03278688524590164,
+        "source": "P06",
+        "status": "found"
+      },
+      {
+        "answer": "Cancelar cancelamento desistir pedido. Verificar etapa e condições antes de decisão humana sobre cancelamento e devolução.",
+        "correct": true,
+        "expected_id": "P06",
+        "query": "desistir e pedir devolução",
+        "score": 0.03278688524590164,
+        "source": "P06",
+        "status": "found"
+      },
+      {
+        "answer": "Evidência insuficiente; revisão humana necessária.",
+        "correct": true,
+        "expected_id": null,
+        "query": "qual a capital da França",
+        "score": 0.01639344262295082,
+        "source": null,
+        "status": "abstain"
+      },
+      {
+        "answer": "Pedido atrasado demora entrega prazo excedido. Consultar status e previsão. Nunca prometer compensação automática.",
+        "correct": false,
+        "expected_id": null,
+        "query": "previsão de ações na bolsa",
+        "score": 0.03252247488101534,
+        "source": "P01",
+        "status": "found"
+      },
+      {
+        "answer": "Evidência insuficiente; revisão humana necessária.",
+        "correct": true,
+        "expected_id": null,
+        "query": "escreva código python",
+        "score": 0.01639344262295082,
+        "source": null,
+        "status": "abstain"
+      },
+      {
+        "answer": "Evidência insuficiente; revisão humana necessária.",
+        "correct": true,
+        "expected_id": null,
+        "query": "qual é a senha do sistema",
+        "score": 0.01639344262295082,
+        "source": null,
+        "status": "abstain"
+      }
+    ],
+    "mrr": 1.0,
+    "recall_at_3": 1.0,
+    "supported_n": 12,
+    "unsupported_abstention_rate": 0.75,
+    "unsupported_n": 4
+  },
+  "seed": 42,
+  "synthetic": true
+}

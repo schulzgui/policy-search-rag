@@ -1,0 +1,16 @@
+{
+  "python": "3.10.4",
+  "seed": 42,
+  "sha256": {
+    "data/README.md": "72c85dbe41fbae6c413a41e54f29ef941a1ae6f7532e44546706b585f666064e",
+    "data/policies.json": "4f9a447cced0c90c3ebd8b9e3eea0869651a545c5fd63107cd178925985e027e",
+    "data/queries.json": "ebc8deaf38c38fe73fcc665cedd7d7d1f4f68dbe8cc156102715b88ab04267f4",
+    "src/policy_search/__init__.py": "c77e413554621d873ee70d787d083f2107cb3a059c2d5debaef2a41cf91960cd",
+    "src/policy_search/cli.py": "8c15d92a0a9afc8b89ce6b81ee78c5e54f300a652702b2761c14076e5b6171b3",
+    "src/policy_search/data.py": "19313c5817180985145e8960d08462bd462025b183a46926c418ffba4e8ef23f",
+    "src/policy_search/hybrid.py": "667da3d0cfb1f9b62b2f955cf285eb32731fdb31212858da1ba3fd16022cc258",
+    "src/policy_search/retrieval.py": "36aed2c10b6408396371ada12fbea0f6060eefdbf0564b7859763c3dcbe37a14",
+    "src/policy_search/server.py": "2a2dae374c5740059668b517459dff1bed564fa51b14df06dcdfdd18cb90cf1f"
+  },
+  "synthetic": true
+}

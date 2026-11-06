@@ -1,0 +1,16 @@
+Avaliação sintética salva em artifacts/metrics.json
+
+Avaliação sintética salva em /var/folders/jw/qcz85hz17kgd_qry6ryqkypr0000gn/T/tmpiguxz36x/artifacts/metrics.json
+Avaliação sintética salva em /var/folders/jw/qcz85hz17kgd_qry6ryqkypr0000gn/T/tmpiguxz36x/artifacts/metrics.json
+test_abstains (test_domain.RetrievalTests) ... ok
+test_citations_grounded (test_domain.RetrievalTests) ... ok
+test_no_instruction_execution (test_domain.RetrievalTests) ... ok
+test_reproducible_pipeline_and_api (test_integration.IntegrationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.532s
+
+OK
+
+Avaliação sintética salva em artifacts/metrics.json
+Dados idênticos e métricas reproduzidas (tolerância 1e-10).

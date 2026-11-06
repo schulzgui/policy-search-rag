@@ -1,0 +1,66 @@
+[
+  {
+    "query": "meu pedido está atrasado",
+    "expected_id": "P01"
+  },
+  {
+    "query": "a entrega excedeu o prazo",
+    "expected_id": "P01"
+  },
+  {
+    "query": "faltando um item no pedido",
+    "expected_id": "P02"
+  },
+  {
+    "query": "produto ausente na sacola",
+    "expected_id": "P02"
+  },
+  {
+    "query": "comida com odor e estragada",
+    "expected_id": "P03"
+  },
+  {
+    "query": "tive alergia após comer",
+    "expected_id": "P03"
+  },
+  {
+    "query": "meu cartão foi cobrado duas vezes",
+    "expected_id": "P04"
+  },
+  {
+    "query": "pagamento com cobrança duplicada",
+    "expected_id": "P04"
+  },
+  {
+    "query": "quero alterar endereço",
+    "expected_id": "P05"
+  },
+  {
+    "query": "mudar o destino da entrega",
+    "expected_id": "P05"
+  },
+  {
+    "query": "quero cancelar o pedido",
+    "expected_id": "P06"
+  },
+  {
+    "query": "desistir e pedir devolução",
+    "expected_id": "P06"
+  },
+  {
+    "query": "qual a capital da França",
+    "expected_id": null
+  },
+  {
+    "query": "previsão de ações na bolsa",
+    "expected_id": null
+  },
+  {
+    "query": "escreva código python",
+    "expected_id": null
+  },
+  {
+    "query": "qual é a senha do sistema",
+    "expected_id": null
+  }
+]

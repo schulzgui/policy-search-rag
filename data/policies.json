@@ -1,0 +1,32 @@
+[
+  {
+    "id": "P01",
+    "title": "Atraso na entrega",
+    "text": "Pedido atrasado demora entrega prazo excedido. Consultar status e previsão. Nunca prometer compensação automática."
+  },
+  {
+    "id": "P02",
+    "title": "Item ausente",
+    "text": "Item faltando ausente incompleto produto não recebido. Registrar itens e encaminhar para revisão humana de reembolso."
+  },
+  {
+    "id": "P03",
+    "title": "Segurança alimentar",
+    "text": "Comida estragada intoxicação alergia odor segurança alimentar. Escalar imediatamente para equipe humana especializada."
+  },
+  {
+    "id": "P04",
+    "title": "Cobrança duplicada",
+    "text": "Cobrança duplicada pagamento cobrado duas vezes cartão. Solicitar verificação humana financeira sem coletar dados completos do cartão."
+  },
+  {
+    "id": "P05",
+    "title": "Alteração de endereço",
+    "text": "Alterar endereço destino local entrega. Verificar etapa do pedido e encaminhar para atendimento humano."
+  },
+  {
+    "id": "P06",
+    "title": "Cancelamento",
+    "text": "Cancelar cancelamento desistir pedido. Verificar etapa e condições antes de decisão humana sobre cancelamento e devolução."
+  }
+]
